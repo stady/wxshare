@@ -1,12 +1,33 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/bookstore/bookstore"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTitleText": "掌阅课外书",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#626567",
+    "selectedColor": "#2A8CE5",
+    "backgroundColor": "#FBFBFB",
+    "borderStyle": "white",
+    "list":[
+      {
+        "pagePath": "pages/index/index",
+        "text": "推荐",
+        "iconPath": "images/main_tab_icon_shelf_n_new.png",
+        "selectedIconPath": "images/main_tab_icon_shelf_p_new.png"
+      },
+      {
+        "pagePath": "pages/bookstore/bookstore",
+        "text": "书城",
+        "iconPath": "images/main_tab_icon_discover_n_new.png",
+        "selectedIconPath": "images/main_tab_icon_discover_p_new.png"
+      }
+    ]
   }
 }

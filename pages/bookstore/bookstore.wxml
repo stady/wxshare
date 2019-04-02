@@ -1,0 +1,5 @@
+<!--pages/bookstore/bookstore.wxml-->
+<text class='sub_title'>{{ title }}</text>
+<scroll-view>
+
+</scroll-view>
